@@ -286,7 +286,7 @@ else if(cur->right == NULL)
 ptr = cur->left;
 else
 {
-// Find the in–order successor and its parent
+// Find the inâ€“order successor and its parent
 psuc = cur;
 cur = cur->left;
 while(suc->left!=NULL)
